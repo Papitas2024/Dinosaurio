@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.dino-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}
+
+.dino-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.dino-card h2 {
+    font-size: 24px;
+    color: #00796b;
+}
+
+.dino-card p {
+    font-size: 16px;
+}
+
+.dino-card button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.dino-card button:hover {
+    background-color: #004d40;
+}
